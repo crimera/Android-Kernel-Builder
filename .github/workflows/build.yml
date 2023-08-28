@@ -284,7 +284,7 @@ jobs:
           fi
 
           cd AnyKernel3/
-          zip -q -r "${{ env.anykernel }}.zip" *
+          zip -r9 "${{ env.anykernel }}.zip" * -x .git README.md *placeholder
 
       - name: "💾 Upload AnyKernel3 image => (${{ env.builddate }})"
         uses: actions/upload-artifact@v3
