@@ -38,8 +38,8 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/crimera/AnyKernel3/",
-      "branch": "main"
+      "repo": "https://github.com/crimera/AnyKernel3",
+      "branch": "master"
     }
   }
 ]
